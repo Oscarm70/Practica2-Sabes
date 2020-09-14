@@ -1,0 +1,33 @@
+body{
+	background: #7b9cff;
+	font-family: arial;
+	color: #fff;
+}
+
+table, th, td{
+
+	/*Agregamos un borde, ancho 1px, color negro solido*/
+	border: 1px solid black;
+
+	/*Colapsamos los bordes de manera que comparten el mismo borde*/
+	border-collapse: collapse;
+
+	padding: 7px;
+}
+
+th{
+	text-align: left;
+}
+
+.tabla2{
+	width: 95%;
+	background: rgba(0,0,0,.5);
+}
+
+.tabla1{
+	margin-bottom: 30px;
+	background: rgba(0,0,0,.5);
+	color: #ffde7b;
+
+
+}
